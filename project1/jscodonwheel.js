@@ -76,7 +76,7 @@ function Codonwheel() {
 
         var aainfo = $('<div>', { id: 'aainfo' }).appendTo(target).css({'max-width':'750px','margin':'0 auto'});
         var aawildtype = $('<div>', { class: 'aainfo' }).appendTo(aainfo);
-        var wildtype = $('<input>', { placeholder: 'Wildtype codon or a.a.', class: 'input-nucleotides' }).css('background-color', options.colors.wildtype).appendTo(aawildtype);
+        var wildtype = $('<input>', { placeholder: '', class: 'input-nucleotides' }).css('background-color', options.colors.wildtype).appendTo(aawildtype);
         $('.aainfo').css({
             position:'relative',
             'box-sizing': 'border-box',
