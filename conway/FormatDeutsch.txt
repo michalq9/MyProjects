@@ -1,0 +1,12 @@
+Width - Breite des Spielfelds (w)
+Height - Höhe des Spielfelds (h)
+Anzahl der lebenden Zellen (N)
+x1, y1 --> Koordinaten der lebenden Zellen. [0, 0] ist oben rechts, [w - 1, h - 1] ist unten links.
+x2, y2
+.
+.
+.
+xN, yN
+
+(Alles danach wird ignoriert. Die Endung sollte ".txt" sein.)
+
