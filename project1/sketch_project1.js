@@ -18,13 +18,13 @@ function attachTripletEvent() {
     x1 = 0;
     x2 = 3;
     Triplet = [30];
+     var aminoAcid = '';
     for (i = 0; mRNA.length >= i; i++)
     {
         Triplet[i] = mRNA.substring(x1, x2);
         x1+=3;
         x2+=3;
     }
-    var aminoAcid = '';
     for (i = 0; mRNA.length >= i; i++)
     {
         aminoS = (AminoAcidTriplet.findIndex((x) => x === Triplet[i]));
@@ -51,10 +51,12 @@ function attachTripletEvent() {
     $('#tripletContainer').empty();
     for (i = 0; i < mrnaArrayLength; i++)
     {
-    let row = '<div class="row"><div class="col">Triplet-{{id}}</div><div class="col triplet value" style="cursor: pointer">{{Value}}</div></div>';  
+   let row = '<div class="row"><div class="col">Triplet-{{id}}</div><div class="col triplet value" style="cursor: pointer">{{Value}}</div><div class="col">Protein: {{Value}}</div> </div>';  
       let tripletI = mRNA.substring(i*3, (i*3)+3);
+      let aminoI = aminoAcid.substring(i*3, (i*3)+3);
       row = row.replace('{{id}}', i+1);
       row = row.replace('{{Value}}', tripletI);
+      row = row.replace('{{Value}}',aminoI);
       $('#tripletContainer').append(row);
     }
     
