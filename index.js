@@ -5,4 +5,8 @@ $(document).ready(function(){
     //$('div.navbar-collapse.collapse').removeClass('show')
     $('div.navbar-collapse').collapse('hide');
   }); 
+  $('#ConwayLink').click(function(){         $("#mainContainer").load("conway/conway.html");
+  //$('div.navbar-collapse.collapse').removeClass('show')
+  $('div.navbar-collapse').collapse('hide');
+}); 
 });
