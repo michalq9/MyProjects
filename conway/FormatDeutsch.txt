@@ -1,7 +1,7 @@
 Width - Breite des Spielfelds (w)
 Height - Höhe des Spielfelds (h)
 Anzahl der lebenden Zellen (N)
-x1, y1 --> Koordinaten der lebenden Zellen. [0, 0] ist oben rechts, [w - 1, h - 1] ist unten links.
+x1, y1 --> Koordinaten der lebenden Zellen. [0, 0] ist oben links, [w - 1, h - 1] ist unten rechts.
 x2, y2
 .
 .
