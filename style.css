@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #353161;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 80px;
+  color: #ffecfa;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  color: #ffecfa;
+  text-align: center;
+}
+
+a {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+#credit {
+  text-align: right;
+  font-size: medium;
+  padding: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
